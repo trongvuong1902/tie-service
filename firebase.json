@@ -1,0 +1,51 @@
+{
+    "emulators": {
+        "auth": {
+            "host": "0.0.0.0",
+            "port": 9099
+        },
+        "functions": {
+            "host": "0.0.0.0",
+            "port": 5001
+        },
+        "firestore": {
+            "host": "0.0.0.0",
+            "port": 8080
+        },
+        "storage": {
+            "host": "0.0.0.0",
+            "port": 9199
+        },
+        "ui": {
+            "enabled": true
+        }
+    },
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "hair-care-fb546",
+                    "appId": "1:501164190041:android:5f5138f013cbf275dc4448",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "ios": {
+                "default": {
+                    "projectId": "hair-care-fb546",
+                    "appId": "1:501164190041:ios:dd70f5ee01efb4c0dc4448",
+                    "uploadDebugSymbols": false,
+                    "fileOutput": "ios/Runner/GoogleService-Info.plist"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "hair-care-fb546",
+                    "configurations": {
+                        "android": "1:501164190041:android:5f5138f013cbf275dc4448",
+                        "ios": "1:501164190041:ios:dd70f5ee01efb4c0dc4448"
+                    }
+                }
+            }
+        }
+    }
+}

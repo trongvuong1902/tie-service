@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "501164190041",
+    "project_id": "hair-care-fb546",
+    "storage_bucket": "hair-care-fb546.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501164190041:android:5f5138f013cbf275dc4448",
+        "android_client_info": {
+          "package_name": "com.example.tie_service"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-GNvtAbQ2DuLd5tbs1YV5cF3rEVX22S8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
